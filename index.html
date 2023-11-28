@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo.png" alt="Bootstrap" width="70" height="40">
+        </a>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sales">Saldi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#summer">Welcome Summer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#last-minute">Last Minute</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Recensioni</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Cerca posti da sogno" aria-label="Search" />
+            <button class="btn btn-outline-danger" type="submit">Cerca</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+        <!--qui ci va il jumbotron-->
+
+        <div class="bg-body-tertiary p-5 rounded-3 my-5 text-secondary shadow-sm">
+            <h1 class="fs-1 fw-normal border-bottom border-2 pb-3">Eveline-R <span class="fw-lighter fs-4">- Feel the Freedom</span></h1>
+            <p class="fs-4">Scopri le destinazioni più calde del momento!</p>
+            <button class="btn btn-info text-white fw-medium mt-3 px-5">Prenota ora</button>
+        </div>
+
+
+        <div class="row mb-2">
+            <div class="col-lg-6">
+                <h3>Saldi</h3>
+            </div>
+            <div class="col-lg-6 text-end">
+                <a data-bs-toggle="collapse" href="#sales" role="button" aria-expanded="false" aria-controls="sales" class="text-decoration-none"><h5 class="fs-6 fw-medium text-info">Nascondi sezione</h5></a>
+            </div>
+        </div>
+
+        <div class="row collapse show" id="sales">
+            <div class="col-lg-3">
+                <div class="card border-2 border-info">
+                    <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top" alt="Placeholder Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae explicabo corrupti, nihil nisi, delectus aliquam eius ut atque, nemo laborum fugit eos omnis cupiditate?</p>
+                        <button class="btn btn-info">Prenota</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-2 border-info">
+                    <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top" alt="Placeholder Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae explicabo corrupti, nihil nisi, delectus aliquam eius ut atque, nemo laborum fugit eos omnis cupiditate?</p>
+                        <button class="btn btn-info">Prenota</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-2 border-info">
+                    <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top" alt="Placeholder Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae explicabo corrupti, nihil nisi, delectus aliquam eius ut atque, nemo laborum fugit eos omnis cupiditate?</p>
+                        <button class="btn btn-info">Prenota</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-2 border-info">
+                    <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top" alt="Placeholder Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae explicabo corrupti, nihil nisi, delectus aliquam eius ut atque, nemo laborum fugit eos omnis cupiditate?</p>
+                        <button class="btn btn-info">Prenota</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 mb-2">
+            <div class="col-lg-6">
+                <h3>Welcome Summer</h3>
+            </div>
+            <div class="col-lg-6 text-end">
+                <a data-bs-toggle="collapse" href="#summer" role="button" aria-expanded="false" aria-controls="summer" class="text-decoration-none" ><h5 class="fs-6 fw-medium text-info">Nascondi sezione</h5></a>
+            </div>
+        </div>
+
+        <div class="row collapse show" id="summer">
+            <div class="col-lg-4">
+                <div class="card border-0 shadow-lg">
+                    <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top" alt="Placeholder Image">
+                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">HOT</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae explicabo corrupti, nihil nisi, delectus aliquam eius ut atque, nemo laborum fugit eos omnis cupiditate?</p>
+                        <button class="btn btn-info">Prenota</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-0 shadow-lg">
+                    <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top" alt="Placeholder Image">
+                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">HOT</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae explicabo corrupti, nihil nisi, delectus aliquam eius ut atque, nemo laborum fugit eos omnis cupiditate?</p>
+                        <button class="btn btn-info">Prenota</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0 shadow-lg">
+                    <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top" alt="Placeholder Image">
+                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">HOT</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae explicabo corrupti, nihil nisi, delectus aliquam eius ut atque, nemo laborum fugit eos omnis cupiditate?</p>
+                        <button class="btn btn-info">Prenota</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-0 shadow-lg">
+                    <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top" alt="Placeholder Image">
+                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">HOT</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae explicabo corrupti, nihil nisi, delectus aliquam eius ut atque, nemo laborum fugit eos omnis cupiditate?</p>
+                        <button class="btn btn-info">Prenota</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-0 shadow-lg">
+                    <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top" alt="Placeholder Image">
+                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">HOT</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae explicabo corrupti, nihil nisi, delectus aliquam eius ut atque, nemo laborum fugit eos omnis cupiditate?</p>
+                        <button class="btn btn-info">Prenota</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-0 shadow-lg">
+                    <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top" alt="Placeholder Image">
+                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">HOT</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae explicabo corrupti, nihil nisi, delectus aliquam eius ut atque, nemo laborum fugit eos omnis cupiditate?</p>
+                        <button class="btn btn-info">Prenota</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="mt-5 mb-2">Offerta del giorno</h3>
+        <div class="row">
+            <div class="col-lg-8">
+                <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top rounded-3 shadow-lg" alt="Placeholder Image">
+            </div>
+            <div class="col-lg-4">
+                <div class="container">
+                    <p class="fs-1 fw-normal mb-0 ">Fashifaru Maldives</p>
+                    <p class="font-monospace">15.01.2021-31.01.2021</p>
+                    <p class="fs-3 fw-light">Ville a partire da <span class="lead fs-3">500 €</span>, non fartele sfuggire!</p>
+                    <span class="badge bg-dark fs-6 fw-medium rounded-5">Best Offer</span>
+                </div>
+            </div>
+        </div>
+        <h3 class="mt-5 mb-2">Last Minute</h3>
+        <div class="row" id="last-minute">
+            <div class="col-lg-2">
+                <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top rounded-3 shadow-lg" alt="Placeholder Image">
+            </div>
+            <div class="col-lg-2">
+                <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top rounded-3 shadow-lg" alt="Placeholder Image">
+            </div>
+            <div class="col-lg-2">
+                <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top rounded-3 shadow-lg" alt="Placeholder Image">
+            </div>
+            <div class="col-lg-2">
+                <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top rounded-3 shadow-lg" alt="Placeholder Image">
+            </div>
+            <div class="col-lg-2">
+                <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top rounded-3 shadow-lg" alt="Placeholder Image">
+            </div>
+            <div class="col-lg-2">
+                <img src="https://media.istockphoto.com/id/153006184/photo/maldives-villa-piles-on-water.jpg?s=612x612&w=0&k=20&c=YEwre6THY_VD_yIfHOAIBB_j-tIMYBNjMWDm5SXHIOQ=" class="card-img-top rounded-3 shadow-lg" alt="Placeholder Image">
+            </div>
+        </div>
+
+        <h3 class="mt-5 mb-2 text-center">Dicono di noi</h3>
+        <div class="row" id="reviews">
+            <div class="col-lg-1">
+                <img src="./assets/img/avatar.jpg" alt="" width="55" height="50" class="rounded-5 border border-2 border-info">
+            </div>
+            <div class="col-lg-11 text-start">
+                <h6>Username</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus odio, explicabo error rem deleniti ullam dolores quaerat, labore porro consequatur consequuntur tempora? Labore a porro autem! Corporis velit iure aperiam.
+                Id, dicta animi? Repellat, aliquam expedita nulla doloribus necessitatibus rem atque natus aut quis sunt eum fuga fugit hic. Placeat suscipit quisquam nam tempora ex porro iure enim numquam eos!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-1">
+                <img src="./assets/img/avatar.jpg" alt="" width="55" height="50" class="rounded-5 border border-2 border-info">
+            </div>
+            <div class="col-lg-11 text-start">
+                <h6>Username</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus odio, explicabo error rem deleniti ullam dolores quaerat, labore porro consequatur consequuntur tempora? Labore a porro autem! Corporis velit iure aperiam.
+                Id, dicta animi? Repellat, aliquam expedita nulla doloribus necessitatibus rem atque natus aut quis sunt eum fuga fugit hic. Placeat suscipit quisquam nam tempora ex porro iure enim numquam eos!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-1">
+                <img src="./assets/img/avatar.jpg" alt="" width="55" height="50" class="rounded-5 border border-2 border-info">
+            </div>
+            <div class="col-lg-11 text-start">
+                <h6>Username</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus odio, explicabo error rem deleniti ullam dolores quaerat, labore porro consequatur consequuntur tempora? Labore a porro autem! Corporis velit iure aperiam.
+                Id, dicta animi? Repellat, aliquam expedita nulla doloribus necessitatibus rem atque natus aut quis sunt eum fuga fugit hic. Placeat suscipit quisquam nam tempora ex porro iure enim numquam eos!</p>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light text-center p-3 mt-5">
+
+<button type="button" class="btn btn-outline-secondary px-3 m-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Contattaci
+  </button>
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Contattaci</h1>
+          <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control bg-secondary mb-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="La tua mail...">
+            <div class="input-group">
+                <textarea class="form-control bg-secondary" aria-label="text area" placeholder="Inserisci la tua richiesta..."></textarea>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        <p>&copy; 2021 Kalina Travel LTD. All Rights Reserved.</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
